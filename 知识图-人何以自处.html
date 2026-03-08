@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孟岩对话李继刚：人何以自处 - 知识图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 40px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            background: linear-gradient(90deg, #ff6b9d, #00ff88, #ffeb3b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle {
+            font-size: 1.5em;
+            color: #88aaff;
+            margin-bottom: 10px;
+        }
+        
+        .duration {
+            color: #666;
+            font-size: 1em;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 28px;
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-a { border-left: 4px solid #ff6b9d; }
+        .card-b { border-left: 4px solid #00ff88; }
+        .card-c { border-left: 4px solid #ffeb3b; }
+        .card-d { border-left: 4px solid #00d4ff; }
+        .card-e { border-left: 4px solid #ff8844; }
+        .card-f { border-left: 4px solid #aa88ff; }
+        .card-g { border-left: 4px solid #ff5599; }
+        
+        .card-label {
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-bottom: 12px;
+            letter-spacing: 2px;
+        }
+        
+        .card-a .card-label { color: #ff6b9d; }
+        .card-b .card-label { color: #00ff88; }
+        .card-c .card-label { color: #ffeb3b; }
+        .card-d .card-label { color: #00d4ff; }
+        .card-e .card-label { color: #ff8844; }
+        .card-f .card-label { color: #aa88ff; }
+        .card-g .card-label { color: #ff5599; }
+        
+        .card h3 {
+            font-size: 1.4em;
+            margin-bottom: 16px;
+            color: #fff;
+        }
+        
+        .card p, .card li {
+            color: #bbccdd;
+            line-height: 1.8;
+            font-size: 1.05em;
+        }
+        
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .card li {
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .card li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #556;
+        }
+        
+        .quote {
+            background: rgba(255,107,157,0.1);
+            border-left: 3px solid #ff6b9d;
+            padding: 16px 20px;
+            margin: 16px 0;
+            font-style: italic;
+            color: #ffddee;
+        }
+        
+        .quote-secondary {
+            background: rgba(0,255,136,0.1);
+            border-left: 3px solid #00ff88;
+        }
+        
+        .highlight {
+            color: #ff6b9d;
+            font-weight: bold;
+        }
+        
+        .highlight-green { color: #00ff88; }
+        .highlight-yellow { color: #ffeb3b; }
+        .highlight-blue { color: #00d4ff; }
+        
+        .timestamp-section {
+            background: rgba(255,255,255,0.03);
+            border-radius: 16px;
+            padding: 32px;
+            margin-top: 40px;
+        }
+        
+        .timestamp-section h2 {
+            color: #88aaff;
+            margin-bottom: 24px;
+            font-size: 1.8em;
+        }
+        
+        .timestamp-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .timestamp-table th, .timestamp-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .timestamp-table th {
+            color: #668;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .timestamp-table td:first-child {
+            color: #ff6b9d;
+            font-family: monospace;
+            font-size: 1.1em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #556;
+            padding: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            body { padding: 20px; }
+            h1 { font-size: 2em; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎙️ 人何以自处</h1>
+            <p class="subtitle">孟岩对话李继刚 | 知识图谱</p>
+            <p class="duration">207分钟 | 2026年3月</p>
+        </header>
+        
+        <div class="grid">
+            <div class="card card-a">
+                <div class="card-label">A-01 核心概念</div>
+                <h3>三个世界理论</h3>
+                <ul>
+                    <li><span class="highlight">原子世界</span>：物理现实，肉身所在</li>
+                    <li><span class="highlight-green">比特世界</span>：互联网，信息的流动</li>
+                    <li><span class="highlight-yellow">向量世界</span>：AI，语义的理解与生成</li>
+                </ul>
+                <div class="quote">
+                    工业革命拿走了体力，AI正在拿走脑力<br>
+                    留给人的，是<span class="highlight">心力</span>
+                </div>
+            </div>
+            
+            <div class="card card-b">
+                <div class="card-label">B-05 技术原理</div>
+                <h3>AI与信息论基础</h3>
+                <ul>
+                    <li><strong>Transformer架构</strong>：大模型核心</li>
+                    <li><strong>上下文窗口</strong>：模型一次能"同时看到"的文本范围</li>
+                    <li><strong>Loss函数</strong>：衡量预测错误程度</li>
+                    <li><strong>信息熵</strong>：衡量信息不确定性</li>
+                    <li><strong>贝叶斯定理</strong>：用已有信息更新判断</li>
+                </ul>
+            </div>
+            
+            <div class="card card-c">
+                <div class="card-label">C-09 应用场景</div>
+                <h3>AI时代的变革</h3>
+                <ul>
+                    <li><strong>阅读</strong>：直接让AI总结会扼杀深刻思考</li>
+                    <li><strong>表达</strong>：提示词是有形状的</li>
+                    <li><strong>教育</strong>：以前是"水"（灌），未来是"火"（点燃）</li>
+                </ul>
+            </div>
+            
+            <div class="card card-d">
+                <div class="card-label">D-12 独特优势</div>
+                <h3>人类不可替代的价值</h3>
+                <ul>
+                    <li><span class="highlight-blue">心力</span> — 你想要什么，而非你知道什么</li>
+                    <li><span class="highlight-blue">欲望</span> — 主动的渴望，AI等待被唤醒</li>
+                    <li><span class="highlight-blue">经历</span> — 具身生活的感受和记忆</li>
+                    <li><span class="highlight-blue">品味(taste)</span> — 神经元被反复冲刷后的显影</li>
+                </ul>
+            </div>
+            
+            <div class="card card-e">
+                <div class="card-label">E-15 局限挑战</div>
+                <h3>干状态 vs 湿状态</h3>
+                <ul>
+                    <li><strong>干状态</strong>：被社会"烘干"，只重视知识技能</li>
+                    <li><strong>湿状态</strong>：本真鲜活，重视情绪、情感连接</li>
+                </ul>
+                <div class="quote quote-secondary">
+                    新时代稀缺的是<span class="highlight-green">心力</span>
+                </div>
+            </div>
+            
+            <div class="card card-f">
+                <div class="card-label">F-17 发展趋势</div>
+                <h3>未来展望</h3>
+                <ul>
+                    <li>组织变革：AI时代公司打一口井</li>
+                    <li>价值反转："湿"变得重要</li>
+                    <li>终极问题：若闲暇成为时代处境，<br><span class="highlight-yellow">你往何处去？</span></li>
+                </ul>
+            </div>
+            
+            <div class="card card-g">
+                <div class="card-label">G-20 实践建议</div>
+                <h3>行动指南</h3>
+                <ul>
+                    <li><strong>人生算法</strong>：奖励函数"我在(I am)" vs 损失函数"它在(It is)"</li>
+                    <li><strong>两个压舱石</strong>：什么是不变的？稀缺性转移到哪里？</li>
+                    <li>守住自己的<span class="highlight">取景框</span></li>
+                    <li>成为因果链条的<span class="highlight">起点</span>，而非终点</li>
+                    <li>回归线下，真正的在场交流</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="timestamp-section">
+            <h2>⏱️ 关键时间戳</h2>
+            <table class="timestamp-table">
+                <tr><th>时间</th><th>主题</th></tr>
+                <tr><td>04:15</td><td>道也好，真理罢了 — 每个人的取景框</td></tr>
+                <tr><td>19:56</td><td>人来世间走这一趟，到底干嘛来的？</td></tr>
+                <tr><td>31:12</td><td>三个世界：原子、比特、向量</td></tr>
+                <tr><td>46:45</td><td>表达，即存在</td></tr>
+                <tr><td>57:40</td><td>干状态与湿状态</td></tr>
+                <tr><td>68:37</td><td>人机协作的两条路</td></tr>
+                <tr><td>96:00</td><td>若闲暇成为时代处境，你往何处去？</td></tr>
+                <tr><td>118:03</td><td>提示词是有形状的</td></tr>
+                <tr><td>169:27</td><td>品味(taste)即权重</td></tr>
+                <tr><td>190:09</td><td>以前是水的教育，未来是火的教育</td></tr>
+                <tr><td>201:50</td><td>终点：人，何以自处？</td></tr>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <p>🎧 知识图生成于 2026-03-08 | 播客：无人知晓</p>
+        </div>
+    </div>
+</body>
+</html>
